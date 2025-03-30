@@ -1,0 +1,351 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFC107;
+}
+
+.main{
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+.hero-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-section .eid {
+    width: 200px;
+
+}
+
+.my-name {
+    color: rgb(78, 1, 130);
+    font-size: 2.2rem;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #218838;
+}
+#generatedUrl {
+    margin-top: 10px;
+    word-break: break-all;
+    display: none;
+    background: #e8e8e8;
+    padding: 10px;
+    border-radius: 5px;
+}
+#copyBtn {
+    margin-top: 5px;
+    background: #007bff;
+}
+#copyBtn:hover {
+    background: #0056b3;
+}
+
+
+.paragraph {
+    font-family: "Salsa", cursive;
+    max-width: 400px;
+    font-size: 2rem;
+    padding-inline: 5px;
+    margin-left: 15rem;
+}
+
+.headimg{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.audio-contaier {
+    max-width: 500px;
+    margin-top: 25px;
+    background-color: antiquewhite;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+    background-color: antiquewhite;
+}
+
+.text {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.audio-contaier {
+    max-width: max-content;
+}
+
+.audio-contaier img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.deepak img {
+    width: 390px;
+}
+
+.laxmi-ganesha {
+    padding: 1em;
+    background-color: #FFC107;
+}
+
+.laxmi-g {
+    max-width: 800px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    border-radius: 20px;
+}
+
+
+.horigental-line {
+    height: 2px;
+    width: 468px;
+    background-color: rgb(238, 217, 207);
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: rgb(247, 218, 190);
+    flex-shrink: 0;
+}
+
+.horigental-devide {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    height: 15px;
+    margin-inline: auto;
+    margin-bottom: 1em;
+    margin-top: 1rem;
+    gap: 12px;
+}
+
+.laxmi-ganesha h2 {
+    font-family: "Style Script", cursive;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.text-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.little {
+    max-width: 200px;
+    margin-left: -5rem;
+}
+
+.cracker{
+    max-width: 400px;
+    height: 200px;
+    margin: auto;
+  
+}
+.cracker-img{
+    width: 60%;
+    border-radius: 20px;
+}
+
+.box {
+    background-color: white;
+    max-width: 900px;
+    padding: 4rem;
+    border-radius: 20px;
+}
+
+.box p {
+    font-size: 2rem;
+    font-family: "Salsa", cursive;
+}
+
+.lastbox {
+
+    display: flex;
+    background-color: white;
+    align-items: center;
+    max-width: 900px;
+    margin-inline: auto;
+    border-radius: 10px;
+    justify-content: center;
+
+
+}
+
+#reciver {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.lastbox img {
+    max-width: 300px;
+}
+
+.thankstext- {
+
+   font-size: 1.8rem;
+    margin-top: 20px;
+    margin-inline: auto;
+    font-family: "Salsa", cursive;
+
+
+}
+
+.stylish {
+    margin-top: 10px;
+    font-family: "Style Script", cursive;
+    font-size: 45px;
+    margin-left: 45px;
+    font-weight: 400;
+
+}
+
+
+
+.thankstext- h5 {
+    text-align: end;
+    margin-top: 15px;
+    font-family: "Salsa", cursive;
+
+    color: rgb(56, 25, 86);
+}
+
+
+@media (max-width: 800px) {
+    .deepak1 {
+        display: block;
+        margin-left: auto;
+    }
+
+    .deepak img {
+        width: 350px;
+        margin-right: 20px;
+    }
+
+    .deepak2 {
+        display: none;
+    }
+
+    .paragraph {
+        margin-left: 0px;
+        font-size: 25px;
+    }
+    .thankstext- {
+
+        font-size: 0.8rem;
+         margin-top: 20px;
+         margin-inline: auto;
+         font-family: "Salsa", cursive;
+     
+     
+     }
+     
+}
+
+
+@media (max-width: 350px) {
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .deepak img {
+        width: 160px;
+    }
+
+
+    .little {
+        max-width: 200px;
+        margin-left: -1rem;
+    }
+
+    .box {
+
+        padding: 1.1rem;
+
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .laxmi-ganesha h2 {
+        font-size: 25px;
+    }
+
+    .box p {
+        font-size: 1rem;
+        font-family: "Salsa", cursive;
+    }
+
+    .box {
+
+        padding: 2rem;
+
+    }
+
+    .little {
+        max-width: 200px;
+
+    }
+
+    .lastbox img {
+        max-width: 200px;
+    }
+
+    .lastbox {
+
+        max-width: 300px;
+
+
+    }
+
+    .stylish {
+
+        font-size: 29px;
+
+
+
+    }
+
+}
